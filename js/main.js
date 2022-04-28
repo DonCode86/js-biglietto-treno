@@ -6,7 +6,7 @@ const userAge = Number(prompt("Quanti anni hai?"));
 let totalPrice = userKm * 0.21;
 console.log(totalPrice);
 //se userAge<18 sconto del 20%
-let TotalPriceWithDiscount;
+let totalPriceWithDiscount;
 if ( userAge < 18 ) {
     totalPriceWithDiscount = totalPrice - totalPrice * 0.20;
     console.log(totalPriceWithDiscount.toFixed(2)+" "+ "€");
